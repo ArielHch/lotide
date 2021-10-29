@@ -16,7 +16,7 @@ const head = function(arr) {
   return arr [0];
 };
 
-//function head(arr) {
+// function head(arr) {
 //  return arr[0];
 //}
 
