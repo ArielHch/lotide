@@ -12,9 +12,13 @@ const assertEqual = function(actual, expected) {
 //assertEqual("Coding is FUN", "Coding is FUN");
 //assertEqual(3.5,1.5);
 
-function head(arr) {
-  return arr[0];
-}
+const head = function(arr) {
+  return arr [0];
+};
+
+//function head(arr) {
+//  return arr[0];
+//}
 
 assertEqual(head([5,6,7]), 5);
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Lab");
